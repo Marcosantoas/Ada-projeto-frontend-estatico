@@ -1,0 +1,85 @@
+
+/* Estilos para tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    empty-cells: show;
+    table-layout: auto;
+    caption-side: top;
+}
+
+/* Estilos das bordas das células da tabela */
+table, th, td {
+    border: 3px solid #ddd;
+    border-radius: 1px;
+}
+
+/* Espaçamentos conteúdo das célula da tabela */
+table {
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Estilos para cores e fundos das células da tabela */
+th {
+  background-color: #4f7ae5; /* Cor de fundo */
+  color: white; /* Cor do texto */
+}
+
+tr:nth-child(even) {
+  background-color: rgb(177, 176, 176); /* Zebrado - linhas pares */
+}
+
+tr:nth-child(odd) {
+  background-color: white; /* Zebrado - linhas ímpares */
+}
+
+
+tr:hover {
+  background-color: #e6f7ff; /* Efeito hover */
+}
+
+/* Estilos para listas em linha */
+.inline-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px 0;
+}
+
+.inline-list li {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 8px 10px;
+    background-color: #6a11cb;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 12px;
+    transition: all 0.3s ease;
+}
+
+.inline-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.inline-list li:hover {
+    background-color: #2575fc;
+    transform: translateY(-3px);
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Responsividade */
+
+@media (max-width: 768px) {
+  table {
+    font-size: 12px;
+  }
+  
+  th, td {
+    padding: 6px;
+    background-color: chocolate;
+  }
+
+}

@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    /* font-size: 62.5%; */
+}
+
+
+
+/* body {
+    background-color: aliceblue;
+} */
+
+h1, h3 {
+    padding-top: 0;
+    margin: 0;
+}
+
+h2 {
+            color: #6a11cb;
+            margin: 25px 0 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #6a11cb;
+}
+
+label {
+    width: 15rem;
+}
+
+div .contato p {
+    margin: 0;
+}
+
+img {
+    height: 100%;
+    width: auto;
+}
+
+button {
+            margin: 10px 0px;
+            padding: 8px 10px;
+            background-color: #6a11cb;
+            border-radius: 10px;
+            color: white;
+            font-weight: 500;
+            transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #a2ee87;
+    color: black;
+    transform: translateY(-3px);
+}
+
+.section {
+    background-color:  aliceblue;;
+    margin-bottom: 40px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 180px;
+}
+
+.header-page {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 30px;
+}
+
+.identity {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin: 20px;
+}
+
+.card {
+    width: 150px;
+    height: 100px;
+    background-color: #072b47;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+div .card a {
+    text-decoration: none;
+    color: white;
+}
+
+.input {
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+@media screen {
+    
+}
+
