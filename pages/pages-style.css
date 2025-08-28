@@ -70,8 +70,25 @@ tr:hover {
     /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
 }
 
-/* Responsividade */
+/* Container do texto e imagem */
+.conteudo-texto p {
+    text-align: justify;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
 
+/* Estilo da imagem */
+.imagem {
+    float: left;
+    margin: 0 20px 15px 0;
+    max-width: 300px;
+    height: auto;
+    border-radius: 6px;
+    /* shape-outside: margin-box; */
+}
+
+/* Responsividade tabela */
 @media (max-width: 768px) {
   table {
     font-size: 12px;
@@ -81,5 +98,18 @@ tr:hover {
     padding: 6px;
     background-color: chocolate;
   }
+  
+  .inline-list li {
+    line-height: 2px;
+  }
+}
 
+/* Responsividade card descrição trilhas */
+@media (max-width: 768px) {
+    .imagem {
+        float: none;
+        margin: 0 0 20px 0;
+        max-width: 100%;
+        width: 100%;
+    }
 }
